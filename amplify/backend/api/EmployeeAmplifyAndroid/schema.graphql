@@ -1,0 +1,6 @@
+type Employee @model {
+  id: ID!
+  name: String!
+  description: String
+  photo: String
+}

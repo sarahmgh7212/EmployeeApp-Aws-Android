@@ -1,0 +1,25 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateEmployee($input: CreateEmployeeInput!) {
+  createEmployee(input: $input) {
+    id
+    name
+    description
+    photo
+  }
+}
+mutation UpdateEmployee($input: UpdateEmployeeInput!) {
+  updateEmployee(input: $input) {
+    id
+    name
+    description
+    photo
+  }
+}
+mutation DeleteEmployee($input: DeleteEmployeeInput!) {
+  deleteEmployee(input: $input) {
+    id
+    name
+    description
+    photo
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "adnroidapp": {
+        "awscloudformation": {
+            "AuthRoleName": "employeeapp-adnroidapp-20191018154932-authRole",
+            "UnauthRoleArn": "arn:aws:iam::064826619300:role/employeeapp-adnroidapp-20191018154932-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::064826619300:role/employeeapp-adnroidapp-20191018154932-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "employeeapp-adnroidapp-20191018154932-deployment",
+            "UnauthRoleName": "employeeapp-adnroidapp-20191018154932-unauthRole",
+            "StackName": "employeeapp-adnroidapp-20191018154932",
+            "StackId": "arn:aws:cloudformation:us-east-1:064826619300:stack/employeeapp-adnroidapp-20191018154932/ae1520a0-f162-11e9-985a-1235152b041e"
+        },
+        "categories": {
+            "auth": {
+                "employeeapp203c0271": {}
+            }
+        }
+    }
+}

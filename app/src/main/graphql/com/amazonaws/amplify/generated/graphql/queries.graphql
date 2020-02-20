@@ -1,0 +1,24 @@
+# this is an auto generated file. This will be overwritten
+query GetEmployee($id: ID!) {
+  getEmployee(id: $id) {
+    id
+    name
+    description
+    photo
+  }
+}
+query ListEmployees(
+  $filter: ModelEmployeeFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listEmployees(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      name
+      description
+      photo
+    }
+    nextToken
+  }
+}
